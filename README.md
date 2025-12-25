@@ -228,7 +228,7 @@ PUT /api/v1/products/1
 </p>
 
 3. Postman GET after performing PUT
-- **HTTP Status:** 404 Not Found
+- **HTTP Status:** 200 OK
 <p align="left">
   <img src="src/main/resources/static/images/GETafterPUT.png" width="500">
 </p>
