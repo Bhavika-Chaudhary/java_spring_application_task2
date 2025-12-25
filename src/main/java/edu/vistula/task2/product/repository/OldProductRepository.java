@@ -1,12 +1,12 @@
 package edu.vistula.task2.product.repository;
 
-import org.springframework.stereotype.Repository;
 import edu.vistula.task2.product.domain.Product;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
 @Repository
-public class ProductRepository {
+public class OldProductRepository {
     protected final Map<Long, Product> map = new HashMap<>();
     protected long counter = 1;
 
